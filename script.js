@@ -1,5 +1,3 @@
-// filter
-
 const categoryTitle = document.querySelectorAll('.category-title');
 const allCategoryPosts = document.querySelectorAll('.all');
 
@@ -26,9 +24,7 @@ function changeActivePosition(activeItem){
 };
 
 
-// text animation
-
-const words = ['web developer', 'photographer', 'designer']
+const words = ['frontend developer', 'students Geeks']
 
 gsap.to(".cursor", {
     opacity: 0,
